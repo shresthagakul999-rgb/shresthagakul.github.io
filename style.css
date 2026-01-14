@@ -1,0 +1,16 @@
+header > nav > ul {
+  margin-top: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 999;
+}
+header > nav > ul > li {
+  font-size: 18px;
+  font-weight: 600;
+}
+header > nav > ul > li > a {
+  text-decoration: none;
+}
