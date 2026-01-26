@@ -1,3 +1,7 @@
+header > nav{
+   background: rgba(0.0.0..5);
+}
+
 header > nav > ul {
   margin-top: 0;
   width: 100%;
