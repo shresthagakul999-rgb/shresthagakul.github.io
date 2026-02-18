@@ -5,37 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my_portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style2.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="MY_CV">My_CV</a></li>
+          <li class="list"><a href="#home">Home</a></li>
+          <li class="list"><a href="#about">About Me</a></li>
+          <li class="list"><a href="#contact">Contact</a></li>
+          <li class="list"><a href="MY_CV">My_CV</a></li>
         </ul>
       </nav>
     </header>
-    <div class="container1">
+    <div class="container1" id="home">
       <div class="img-cloud">
-        <img src="./img/cloud.png" alt="">
+        <img class="img1" src="./img/cloud.png" alt="" />
       </div>
       <div class="txt">
         <h1>Hi I'm Gakul</h1>
-        <h2>A Web Developer</h2>
+        <h2>a web developer</h2>
       </div>
       <div class="img-cloud">
-        <img src="./img/cloud.png" alt="">
+        <img class="img2" src="./img/cloud.png" alt="" />
       </div>
       <div class="img-mountain">
-        <img src="./img/mountain.png" alt="">
+        <img src="./img/mountain.png" alt="" />
+      </div>
+      <div class="img-p">
+        <img class="my-img" src="./img/gg.jpg" alt="" />
+      </div>
+      <div class="img-bird">
+        <img class="img3" src="./img/bird.png" alt="" />
       </div>
     </div>
-    <div class="container2">
-      <div class="img-p">
-        <img src="./img/gg.jpg" alt="">
-      </div>
+
+    <div class="container2" id="about">
       <div class="txt-intro">
         <h2>Hi</h2>
         <h1>Gakul Shrestha</h1>
@@ -49,7 +54,8 @@
         <div class="projects"></div>
         <div class="projects"></div>
       </div>
-      <div class="contact">
+
+      <div class="contact" id="contact">
         <h1>Get In Touch</h1>
         <p>If you have a project that you want to get started, think you need my help with something, or just want to say hey, then get in touch.</p>
         <a href="mailto:shresthagakul9999@gmail.com">Contact Me</a>
@@ -65,6 +71,6 @@
       <p>&copy; 2026 Gakul Shrestha. All rights reserved.</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="function.js"></script>
   </body>
 </html>
