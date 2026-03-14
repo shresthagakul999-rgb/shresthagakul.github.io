@@ -1,0 +1,7 @@
+{
+  "editor.multiCursorMergeOverlapping": false,
+  "editor.multiCursorPaste": "full",
+  "editor.overtypeCursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "liveServer.settings.port": 5501
+}
